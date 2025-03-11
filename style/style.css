@@ -30,11 +30,11 @@ body {
 }
 
 .matrix-text {
-  color: #0f0;
+  color: rgb(225, 0, 255);
   font-size: 80px;
   font-family: monospace;
   position: relative;
-  text-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
+  text-shadow: 0 0 10px rgb(225, 0, 255), 0 0 20px rgb(225, 0, 255), 0 0 30px rgb(225, 0, 255);
   z-index: 2; /* Ensure it stays above the rain effect */
   text-align: center;
   width: 100%;
@@ -50,8 +50,8 @@ body {
   animation: glitch 2s infinite;
   clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
   transform: translate(-2px, -2px);
-  color: #0f0;
-  text-shadow: 0 0 5px #0f0, 0 0 15px #0f0;
+  color: rgb(225, 0, 255);
+  text-shadow: 0 0 5px rgb(225, 0, 255), 0 0 15px rgb(225, 0, 255);
 }
 
 /* Animation for the rain effect */

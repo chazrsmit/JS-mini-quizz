@@ -6,8 +6,12 @@ h1 {
 
 .div1 {
     background-color: cornflowerblue;
-    width: 400px;
-    height: 400px;
+    width: 300px;
     display: flex;
     margin: 0 auto;
+    padding: 20px;
+}
+
+.h5 {
+    text-align: center;
 }

@@ -14,7 +14,7 @@ let score = 0
 
 for (let i = 0 ; i <= tableauQ.length-6 ; i+=6) { // on incrémente de 6 DONC le premier tour c'est i = 0, puis i = 6, puis i = 12, etc.
 
-    console.log(tableauQ[i] + ": " + tableauQ[i+1])
+    console.log(tableauQ[i] + ": " + tableauQ[i+1]) //on affiche le num de la question et la question sur une seule ligne
         
     // Affichage des options
     console.log(tableauQ[i+2])

@@ -33,9 +33,8 @@ for (let i = 0 ; i <= tableauQ.length-6 ; i+=6) { // on incrémente de 6 DONC le
         console.log("Mauvaise réponse")
     }
 
-    console.log("-------------------")
+    console.log("𓏲 ๋࣭  ࣪ ˖✮⋆˙☽")
 
 }
 
 console.log("Tu as réalisé un score de " + score + " sur " + (tableauQ[tableauQ.length-6]) + ".")
-console.log("☽ ☽ ☽ ☽ ☽ ☽ ☽")

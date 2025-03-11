@@ -25,7 +25,7 @@ for (let i = 0 ; i <= tableauQ.length-6 ; i+=6) { // on incrémente de 6 DONC le
     let reponse = prompt("Entrez le numéro de votre réponse (1, 2 ou 3):")
 
     // Vérifier la réponse et modifier le score
-    if (reponse == i+5) {
+    if (reponse == tableauQ[i+5]) {
         console.log("Bonne réponse !")
         score += 1
     }
@@ -37,4 +37,4 @@ for (let i = 0 ; i <= tableauQ.length-6 ; i+=6) { // on incrémente de 6 DONC le
 
 }
 
-console.log("Tu as réalisé un score de " + score)
+console.log("Tu as réalisé un score de " + score + " sur " + (tableauQ[tableauQ.length-6]))

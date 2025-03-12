@@ -3,6 +3,17 @@ body {
   overflow: hidden;
   margin: 0;
   height: 100vh;
+  /* prend toute la viewport */
+}
+
+.container {
+  width:100px;
+  height:100px;
+  background-color: blueviolet;
+  position: relative; 
+  z-index: 3;          /* higher than the matrix-container */
+  margin: 0 auto;      /* Center it horizontally */
+  /* margin-top: 250px;    Add some space from the top */
 }
 
 .matrix-container {
@@ -11,6 +22,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: flex-start;  /* Change from center to flex-start */
@@ -25,7 +37,8 @@ body {
   background-size: cover;
   height: 100vh;
   width: 100%;
-  position: relative;
+  position: fixed;
+  z-index:1;
   display: flex;
   justify-content: center;
   align-items: center;

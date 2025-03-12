@@ -41,6 +41,7 @@ body {
   font-family: monospace;
   color:rgb(225, 0, 255);
   font-size: 30px;
+  display:none; /* retirer le display none une fois que l'utilisateur a dit OK pour commencer > changer le style de la classe pour display block
 }
 
 @keyframes blink {

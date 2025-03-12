@@ -13,7 +13,9 @@ body {
   bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;  /* Change from center to flex-start */
+  /* vertically centers the text - il faut changer align-items */
+  padding-top: 50px;        /* Add some padding from the top */
   z-index: 2;
 }
 

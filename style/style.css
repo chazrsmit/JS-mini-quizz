@@ -6,11 +6,15 @@ body {
   /* prend toute la viewport */
 }
 
-.container {
-  width:100px;
-  height:100px;
+.my-container {
+  width:600px;
+  height:400px;
   background-color: blueviolet;
-  position: relative; 
+  position: absolute; 
+  top:52%;
+  left:50%;
+  transform: translate(-50%, -50%); 
+  box-sizing: border-box;
   z-index: 3;          /* higher than the matrix-container */
   margin: 0 auto;      /* Center it horizontally */
   /* margin-top: 250px;    Add some space from the top */
@@ -27,7 +31,7 @@ body {
   justify-content: center;
   align-items: flex-start;  /* Change from center to flex-start */
   /* vertically centers the text - il faut changer align-items */
-  padding-top: 50px;        /* Add some padding from the top */
+  padding-top: 60px;        /* Add some padding from the top */
   z-index: 2;
 }
 

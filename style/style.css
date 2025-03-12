@@ -59,7 +59,7 @@ body {
   justify-content: center;
   align-items: flex-start;  /* Change from center to flex-start */
   /* vertically centers the text - il faut changer align-items */
-  padding-top: 60px;        /* Add some padding from the top */
+  padding-top: 70px;        /* Add some padding from the top */
   z-index: 2;
 }
 

@@ -23,11 +23,30 @@ body {
   border-width: 20px;
 }
 
+.container-score {
+  position: absolute; 
+  top:82%;
+  left:50%;
+  transform: translate(-50%, -50%); 
+  z-index: 3;
+}
+
 .mon-texte {
   padding:20px;
   font-family: monospace;
   color: #2F1539;
 }
+
+.texte-score {
+  font-family: monospace;
+  color:aliceblue;
+  font-size: 30px;
+}
+
+
+/* .texte-couleur {
+  color:#CC7390;
+} */
 
 .matrix-container {
   position: absolute;

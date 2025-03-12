@@ -23,6 +23,12 @@ body {
   border-width: 20px;
 }
 
+.mon-texte {
+  padding:20px;
+  font-family: monospace;
+  color: #2F1539;
+}
+
 .matrix-container {
   position: absolute;
   top: 0;
